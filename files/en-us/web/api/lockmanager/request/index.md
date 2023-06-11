@@ -1,5 +1,6 @@
 ---
-title: LockManager.request()
+title: "LockManager: request() method"
+short-title: request()
 slug: Web/API/LockManager/request
 page-type: web-api-instance-method
 browser-compat: api.LockManager.request
@@ -71,7 +72,7 @@ request(name, options, callback)
 
 ### Return value
 
-A {{jsxref('Promise')}} that resolves with `undefined` when the request is granted.
+A {{jsxref('Promise')}} that resolves (or rejects) with the result of the callback after the lock is released, or rejects if the request is aborted.
 
 ### Exceptions
 

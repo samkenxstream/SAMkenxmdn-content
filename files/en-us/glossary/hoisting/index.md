@@ -4,6 +4,8 @@ slug: Glossary/Hoisting
 page-type: glossary-definition
 ---
 
+{{GlossarySidebar}}
+
 JavaScript **Hoisting** refers to the process whereby the interpreter appears to move the _declaration_ of functions, variables or classes to the top of their scope, prior to execution of the code.
 
 _Hoisting_ is not a term normatively defined in the ECMAScript specification. The spec does define a group of declarations as [_HoistableDeclaration_](https://tc39.es/ecma262/#prod-HoistableDeclaration), but this only includes [`function`](/en-US/docs/Web/JavaScript/Reference/Statements/function), [`function*`](/en-US/docs/Web/JavaScript/Reference/Statements/function*), [`async function`](/en-US/docs/Web/JavaScript/Reference/Statements/async_function), and [`async function*`](/en-US/docs/Web/JavaScript/Reference/Statements/async_function*) declarations. Hoisting is often considered a feature of [`var`](/en-US/docs/Web/JavaScript/Reference/Statements/var) declarations as well, although in a different way. In colloquial terms, any of the following behaviors may be regarded as hoisting:
@@ -41,7 +43,7 @@ For more information on hoisting, see:
 
 - `var`/`let`/`const` hoisting — [Grammar and types guide](/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#variable_hoisting)
 - `function` hoisting — [Functions guide](/en-US/docs/Web/JavaScript/Guide/Functions#function_hoisting)
-- `class` hoisting — [Classes guide](/en-US/docs/Web/JavaScript/Guide/Using_Classes#class_declaration_hoisting)
+- `class` hoisting — [Classes guide](/en-US/docs/Web/JavaScript/Guide/Using_classes#class_declaration_hoisting)
 
 ## See also
 

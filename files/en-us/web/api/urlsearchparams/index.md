@@ -25,6 +25,11 @@ for (const [key, value] of mySearchParams.entries()) {
 - {{domxref("URLSearchParams.URLSearchParams", 'URLSearchParams()')}}
   - : Returns a `URLSearchParams` object instance.
 
+## Instance properties
+
+- {{domxref("URLSearchParams.size", 'size')}}
+  - : Indicates the total number of search parameter entries.
+
 ## Instance methods
 
 - {{domxref("URLSearchParams.append()")}}
@@ -122,7 +127,7 @@ console.log(searchParams3.has("query")); // true
 
 ### Preserving plus signs
 
-The `URLSearchParams` constructor interprets plus signs (`+`) as spaces, which might cause problems.
+The `URLSearchParams` constructor interprets plus signs (`+`) as spaces, which might cause problems. In the example below, we use [hexadecimal escape sequences](/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#hexadecimal_escape_sequences) to mimic a string containing binary data (where every byte carries information) that needs to be stored in the URL search params. Note how the encoded string produced by `btoa()` contains `+` and isn't preserved by `URLSearchParams`.
 
 ```js
 const rawData = "\x13à\x17@\x1F\x80";

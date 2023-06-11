@@ -4,6 +4,8 @@ slug: Glossary/Semantics
 page-type: glossary-definition
 ---
 
+{{GlossarySidebar}}
+
 In programming, **Semantics** refers to the _meaning_ of a piece of code — for example "what effect does running that line of JavaScript have?", or "what purpose or role does that HTML element have" (rather than "what does it look like?".)
 
 ## Semantics in JavaScript
@@ -53,6 +55,7 @@ These are _some_ of the roughly 100 semantic [elements](/en-US/docs/Web/HTML/Ele
 - {{htmlelement("details")}}
 - {{htmlelement("figcaption")}}
 - {{htmlelement("figure")}}
+- {{htmlelement("form")}}
 - {{htmlelement("footer")}}
 - {{htmlelement("header")}}
 - {{htmlelement("main")}}
@@ -79,6 +82,7 @@ These are _some_ of the roughly 100 semantic [elements](/en-US/docs/Web/HTML/Ele
   - {{htmlelement("figcaption")}}
   - {{htmlelement("figure")}}
   - {{htmlelement("footer")}}
+  - {{htmlelement("form")}}
   - {{htmlelement("header")}}
   - {{htmlelement("main")}}
   - {{htmlelement("mark")}}
